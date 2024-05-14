@@ -1,16 +1,15 @@
 {
   "files": {
     "main.css": "/reservation-app/static/css/main.f855e6bc.css",
-    "main.js": "/reservation-app/static/js/main.fb8ce392.js",
+    "main.js": "/reservation-app/static/js/main.a1a7d20a.js",
     "static/js/453.242d340d.chunk.js": "/reservation-app/static/js/453.242d340d.chunk.js",
-    "static/media/logo.svg": "/reservation-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/reservation-app/index.html",
     "main.f855e6bc.css.map": "/reservation-app/static/css/main.f855e6bc.css.map",
-    "main.fb8ce392.js.map": "/reservation-app/static/js/main.fb8ce392.js.map",
+    "main.a1a7d20a.js.map": "/reservation-app/static/js/main.a1a7d20a.js.map",
     "453.242d340d.chunk.js.map": "/reservation-app/static/js/453.242d340d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.fb8ce392.js"
+    "static/js/main.a1a7d20a.js"
   ]
 }
