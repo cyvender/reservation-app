@@ -1,24 +1,30 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
+  const Field = ({ label, placeholder }) => (
+    <div>
+      <label>{label}</label>
+      <input placeholder={placeholder} />
+    </div>
+  );
+
   return (
     <div className="App">
-      <header className="App-header">
-        Reservations
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      Reservations <br></br>
+      Name: <br></br>
+      <input placeholder="First..."></input>
+      <input placeholder="Last..."></input>
+      <Field placeholder="MM/DD/YYYY" label="Date of Birth:" />
+      Gender:
+      <select placeholder="select">
+        <option>--</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>I'm mentally ill</option>
+      </select>
+      <br></br>
+      Email:<input></input>
+      <br></br>Phone:<input></input>
     </div>
   );
 }
