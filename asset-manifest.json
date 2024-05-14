@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/reservation-app/static/css/main.f855e6bc.css",
-    "main.js": "/reservation-app/static/js/main.a1a7d20a.js",
-    "static/js/453.242d340d.chunk.js": "/reservation-app/static/js/453.242d340d.chunk.js",
+    "main.css": "/reservation-app/static/css/main.fd1d82e6.css",
+    "main.js": "/reservation-app/static/js/main.6e8c4ccd.js",
+    "static/js/453.4de05bb9.chunk.js": "/reservation-app/static/js/453.4de05bb9.chunk.js",
     "index.html": "/reservation-app/index.html",
-    "main.f855e6bc.css.map": "/reservation-app/static/css/main.f855e6bc.css.map",
-    "main.a1a7d20a.js.map": "/reservation-app/static/js/main.a1a7d20a.js.map",
-    "453.242d340d.chunk.js.map": "/reservation-app/static/js/453.242d340d.chunk.js.map"
+    "main.fd1d82e6.css.map": "/reservation-app/static/css/main.fd1d82e6.css.map",
+    "main.6e8c4ccd.js.map": "/reservation-app/static/js/main.6e8c4ccd.js.map",
+    "453.4de05bb9.chunk.js.map": "/reservation-app/static/js/453.4de05bb9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.a1a7d20a.js"
+    "static/css/main.fd1d82e6.css",
+    "static/js/main.6e8c4ccd.js"
   ]
 }
