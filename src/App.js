@@ -1,6 +1,11 @@
 import "./App.css";
+import React, { useState } from "react";
+import DatePicker from "react-datepicker";
+
+import "react-datepicker/dist/react-datepicker.css";
 
 function App() {
+  const [startDate, setStartDate] = useState(new Date());
   const Field = ({ label, placeholder }) => (
     <div>
       <label>{label}</label>
@@ -11,7 +16,7 @@ function App() {
   return (
     <div className="App">
       Reservations <br></br>
-      Name: <br></br>
+      Name:
       <input placeholder="First..."></input>
       <input placeholder="Last..."></input>
       <Field placeholder="MM/DD/YYYY" label="Date of Birth:" />
@@ -23,8 +28,13 @@ function App() {
         <option>I'm mentally ill</option>
       </select>
       <br></br>
-      Email:<input></input>
-      <br></br>Phone:<input></input>
+      <Field label="Email:" />
+      <Field label="Phone:" />
+      Reservation Date:
+      <DatePicker
+        selected={startDate}
+        onChange={(date) => setStartDate(date)}
+      />
     </div>
   );
 }
