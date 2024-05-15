@@ -21,7 +21,7 @@ function App() {
       <input placeholder="Last..."></input>
       <Field placeholder="MM/DD/YYYY" label="Date of Birth:" />
       Gender:
-      <select placeholder="select">
+      <select>
         <option>--</option>
         <option>Male</option>
         <option>Female</option>
@@ -35,6 +35,15 @@ function App() {
         selected={startDate}
         onChange={(date) => setStartDate(date)}
       />
+      <br></br>
+      Location:
+      <select>
+        <option>--</option>
+        <option>Lakewood</option>
+        <option>Toms River</option>
+      </select>
+      <br></br>
+      <button>Submit</button>
     </div>
   );
 }
